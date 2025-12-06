@@ -1,0 +1,42 @@
+# LangChain RAGAS High-Version Requirements
+# Updated: December 2025
+# Targeting Python 3.11+
+# Explicitly forcing high versions for RAGAS 0.3.7+ compatibility
+
+langchain>=0.3.7
+langchain-core>=0.3.15
+langchain-community>=0.3.7
+langchain-text-splitters>=0.3.2
+ragas>=0.3.7
+
+langchain-google-genai>=2.0.1
+google-generativeai>=0.8.3
+google-ai-generativelanguage>=0.6.10
+
+langchain-openai>=0.2.6
+openai>=1.54.0
+
+# Pydantic V2 is required by LangChain 0.3+ and Ragas 0.3+
+pydantic>=2.9.0
+# Some older internal deps might still need this, explicitly install it
+pydantic-settings>=2.6.0
+
+langchain-chroma>=0.1.4
+chromadb>=0.5.15
+faiss-cpu>=1.9.0
+
+python-dotenv
+tiktoken
+jupyter
+notebook
+ipykernel
+numpy<2.0.0
+pandas
+matplotlib
+seaborn
+datasets>=3.1.0
+
+
+# Opik for Observability (Pinned to Dec 2025 release)
+opik>=1.9.0
+
